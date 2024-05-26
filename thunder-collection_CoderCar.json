@@ -1,0 +1,69 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "CoderCar",
+    "collectionId": "66af1233-0345-40be-906d-f5b4f808071e",
+    "dateExported": "2024-05-26T13:45:49.878Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "26d95e15-8064-4029-b126-af2e1e34aef9",
+            "colId": "66af1233-0345-40be-906d-f5b4f808071e",
+            "containerId": "",
+            "name": "createCar",
+            "url": "http://localhost:8000/car",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2024-05-26T04:21:50.854Z",
+            "modified": "2024-05-26T13:36:10.223Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n    \"make\": \"Chrysler\",\n    \"model\": 200,\n    \"release_date\": 2016,\n    \"transmission_type\": \"AUTOMATIC\",\n    \"size\": \"Midsize\",\n    \"style\": \"Sedan\",\n    \"price\": 27795,\n    \"isDeleted\": false\n  }",
+                "form": []
+            }
+        },
+        {
+            "_id": "ef61751e-8d28-4359-b06d-2ca337ae7d8c",
+            "colId": "66af1233-0345-40be-906d-f5b4f808071e",
+            "containerId": "",
+            "name": "getAllCars",
+            "url": "http://localhost:8000/car/",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-05-26T08:02:58.827Z",
+            "modified": "2024-05-26T08:10:06.599Z",
+            "headers": []
+        },
+        {
+            "_id": "cee84534-6905-4e02-808a-45b31bbd3221",
+            "colId": "66af1233-0345-40be-906d-f5b4f808071e",
+            "containerId": "",
+            "name": "updateCar",
+            "url": "http://localhost:8000/car/6652f5f4c4b8e1f09cf034c5",
+            "method": "PUT",
+            "sortNum": 30000,
+            "created": "2024-05-26T08:06:08.961Z",
+            "modified": "2024-05-26T13:45:16.399Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"style\":\"abc\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "7bd1b2ef-77e3-4cf9-ac5a-510ee655418d",
+            "colId": "66af1233-0345-40be-906d-f5b4f808071e",
+            "containerId": "",
+            "name": "deleteCar",
+            "url": "http://localhost:8000/car/66533aca7d44c8b9a7a1d584",
+            "method": "DELETE",
+            "sortNum": 40000,
+            "created": "2024-05-26T08:11:07.315Z",
+            "modified": "2024-05-26T13:38:08.104Z",
+            "headers": []
+        }
+    ],
+    "ref": "Z4ztzVxGJBctKWEYJXbMsJn32_wTnm7NS5EMgwRapc7mrmuavz-PsANfR6HDJ-Dgg0Ddq2sFBM0mlE-I4TRMlg"
+}
